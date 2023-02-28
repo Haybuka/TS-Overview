@@ -1,7 +1,6 @@
 import React from 'react';
-type StatusProps = {
-  status: 'loading' | 'error' | 'success';
-};
+import { StatusProps } from './Basics.type';
+
 const Status = ({ status }: StatusProps) => {
   let message: string;
 

@@ -1,10 +1,6 @@
 import React from 'react';
+import { InputProps } from './Form.types';
 
-type InputProps = {
-  type: string;
-  handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  value: string;
-};
 const Input = ({ type, handleChange, value }: InputProps) => {
   return <input type={type} onChange={handleChange} value={value} />;
 };

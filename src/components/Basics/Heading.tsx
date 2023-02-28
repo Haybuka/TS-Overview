@@ -1,7 +1,6 @@
 import React from 'react';
-type HeadingProps = {
-  children: React.ReactNode;
-};
+import { HeadingProps } from './Basics.type';
+
 const Heading = (props: HeadingProps) => {
   return <h1>{props.children}</h1>;
 };

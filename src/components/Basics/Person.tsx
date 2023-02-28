@@ -1,12 +1,6 @@
 import React from 'react';
+import { Persons } from './Basics.type';
 
-type Persons = {
-  profile: {
-    first: string;
-    last: string;
-  };
-  profileList: Persons['profile'][];
-};
 function Person({ profileList }: Persons) {
   return (
     <div>
