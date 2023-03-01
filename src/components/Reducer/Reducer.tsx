@@ -1,7 +1,8 @@
 import React from 'react';
+import Counter from './Counter';
 
 const Reducer = () => {
-  return <div>Reducer</div>;
+  return <Counter />;
 };
 
 export default Reducer;
