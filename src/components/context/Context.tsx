@@ -1,8 +1,9 @@
 import React from 'react';
 import Box from './Box';
+import User from './User';
 
 const Context = () => {
-  return <Box />;
+  return <User />;
 };
 
 export default Context;

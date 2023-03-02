@@ -2,8 +2,14 @@ import React from 'react';
 import Heading from './Heading';
 import Person from './Person';
 import Status from './Status';
+type Profile = {
+  first: string;
+  last: string;
+};
+
+type ProfileList = Profile[];
 const Basics = () => {
-  const profileList = [
+  const profileList: ProfileList = [
     { first: 'Bruce', last: 'wayne' },
     { first: 'Clark', last: 'Kent' },
   ];
